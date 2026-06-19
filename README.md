@@ -37,13 +37,11 @@ so you can enable, disable, or extend capabilities from a single config file.
 
 ## 🎬 Demo
 
-<div align="center">
 
-![ReconX-Pro demo](https://github.com/3bwahab/ReconX-Pro/raw/main/ReconX_pro_demo.gif)
 
-▶️ [Watch the full video (with sound)](https://github.com/3bwahab/ReconX-Pro/raw/main/ReconX_pro.mp4)
+https://github.com/user-attachments/assets/978f502e-268b-4f18-a8ab-cd363be0a5e9
 
-</div>
+
 
 ---
 
