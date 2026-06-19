@@ -17,7 +17,7 @@ except ImportError:
 
 from utils.logger import setup_logger
 
-logger = setup_logger("digiteam.integration.builtwith")
+logger = setup_logger("reconx.integration.builtwith")
 
 BW_BASE = "https://api.builtwith.com"
 

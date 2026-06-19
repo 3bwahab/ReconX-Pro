@@ -1,6 +1,6 @@
 # core/post_processor.py
 """
-Post-processing engine for DIGI TEAM.
+Post-processing engine for ReconX-Pro.
 Extracts subdomains and URLs from report.json,
 probes them with httpx, and writes 4 clean output files.
 """
@@ -20,7 +20,7 @@ from rich import box
 from utils.logger import setup_logger
 
 console = Console()
-logger = setup_logger("digiteam.postprocessor")
+logger = setup_logger("reconx.postprocessor")
 
 
 class PostProcessor:

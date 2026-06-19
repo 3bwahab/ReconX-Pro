@@ -130,7 +130,7 @@ class DirFuzzModule(BaseModule):
                         allow_redirects=False,
                         verify=False,
                         headers={"User-Agent": self.config.get(
-                            "general.user_agent", "DIGI-TEAM/2.0"
+                            "general.user_agent", "ReconX-Pro/2.0"
                         )},
                     )
                     if resp.status_code in (200, 204, 301, 302, 307, 401, 403):

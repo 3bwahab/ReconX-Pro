@@ -1,6 +1,6 @@
 # utils/logger.py
 """
-Logging configuration for DIGI TEAM.
+Logging configuration for ReconX-Pro.
 Provides file-based logging that doesn't interfere with CLI output.
 """
 
@@ -12,7 +12,7 @@ from logging.handlers import RotatingFileHandler
 
 def setup_logger(
     name: str,
-    log_file: str = "digiteam.log",
+    log_file: str = "reconx.log",
     level: int = logging.DEBUG,
 ) -> logging.Logger:
     """

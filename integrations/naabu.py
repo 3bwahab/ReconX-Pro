@@ -9,7 +9,7 @@ from typing import List, Dict
 from utils.helpers import run_command, is_tool_installed
 from utils.logger import setup_logger
 
-logger = setup_logger("digiteam.integration.naabu")
+logger = setup_logger("reconx.integration.naabu")
 
 
 class NaabuRunner:

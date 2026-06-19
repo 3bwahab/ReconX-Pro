@@ -8,7 +8,7 @@ from typing import List
 from utils.helpers import run_command, is_tool_installed
 from utils.logger import setup_logger
 
-logger = setup_logger("digiteam.integration.gau")
+logger = setup_logger("reconx.integration.gau")
 
 
 class GauRunner:

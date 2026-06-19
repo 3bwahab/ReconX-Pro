@@ -20,7 +20,7 @@ except ImportError:
 
 from utils.logger import setup_logger
 
-logger = setup_logger("digiteam.integration.github")
+logger = setup_logger("reconx.integration.github")
 
 GITHUB_API = "https://api.github.com"
 
@@ -83,7 +83,7 @@ class GitHubReconModule(BaseModule):
             "Authorization": f"token {self._token}",
             "Accept": "application/vnd.github.v3.text-match+json",
             "User-Agent": self.config.get(
-                "general.user_agent", "DIGI-TEAM/2.0"
+                "general.user_agent", "ReconX-Pro/2.0"
             ),
         }
 

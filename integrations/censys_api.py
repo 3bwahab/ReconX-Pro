@@ -18,7 +18,7 @@ except ImportError:
 
 from utils.logger import setup_logger
 
-logger = setup_logger("digiteam.integration.censys")
+logger = setup_logger("reconx.integration.censys")
 
 CENSYS_V2_BASE = "https://search.censys.io/api/v2"
 
@@ -59,7 +59,7 @@ class CensysModule(BaseModule):
             "Authorization": f"Bearer {self._token}",
             "Accept": "application/json",
             "User-Agent": self.config.get(
-                "general.user_agent", "DIGI-TEAM/2.0"
+                "general.user_agent", "ReconX-Pro/2.0"
             ),
         }
 

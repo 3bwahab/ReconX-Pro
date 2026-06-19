@@ -8,7 +8,7 @@ from typing import Dict, List, Optional
 from utils.helpers import run_command, is_tool_installed
 from utils.logger import setup_logger
 
-logger = setup_logger("digiteam.integration.nmap")
+logger = setup_logger("reconx.integration.nmap")
 
 
 class NmapRunner:

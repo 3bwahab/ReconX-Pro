@@ -17,7 +17,7 @@ except ImportError:
 
 from utils.logger import setup_logger
 
-logger = setup_logger("digiteam.integration.chaos")
+logger = setup_logger("reconx.integration.chaos")
 
 CHAOS_BASE = "https://dns.projectdiscovery.io/dns"
 

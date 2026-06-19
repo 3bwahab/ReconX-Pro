@@ -1,2 +1,2 @@
 # utils/__init__.py
-"""DIGI TEAM Utilities."""
+"""ReconX-Pro Utilities."""

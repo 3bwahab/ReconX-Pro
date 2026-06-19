@@ -1,6 +1,6 @@
 # core/config.py
 """
-Configuration management for DIGI TEAM.
+Configuration management for ReconX-Pro.
 Handles loading, validation, and access to configuration values
 including API keys and tool settings.
 """
@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Any
 from utils.logger import setup_logger
 
-logger = setup_logger("digiteam.config")
+logger = setup_logger("reconx.config")
 
 DEFAULT_CONFIG = {
     "general": {
@@ -19,7 +19,7 @@ DEFAULT_CONFIG = {
         "timeout": 30,
         "output_dir": "reports",
         "json_only": False,
-        "user_agent": "DIGI-TEAM-Recon/2.0",
+        "user_agent": "ReconX-pro/2.0",
     },
     "api_keys": {
         "shodan": "",

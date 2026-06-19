@@ -1,7 +1,7 @@
 # main.py
 #!/usr/bin/env python3
 """
-DIGI TEAM - Elite Reconnaissance Framework
+ReconX-Pro - Elite Reconnaissance Framework
 Main entry point for the application.
 """
 
@@ -22,7 +22,7 @@ from core.runner import ReconRunner
 from utils.logger import setup_logger
 
 console = Console()
-logger = setup_logger("digiteam.main")
+logger = setup_logger("reconx.main")
 
 BANNER = r"""
 ____________________________________________________________________
@@ -134,7 +134,7 @@ def validate_domain(domain: str) -> str:
 def parse_arguments() -> argparse.Namespace:
     """Parse command-line arguments for non-interactive mode."""
     parser = argparse.ArgumentParser(
-        description="DIGI TEAM - Elite Reconnaissance Framework",
+        description="ReconX-Pro - Elite Reconnaissance Framework",
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     parser.add_argument(
@@ -224,7 +224,7 @@ def interactive_mode(config: ConfigManager):
 
 
 def main():
-    """Main entry point for DIGI TEAM."""
+    """Main entry point for ReconX-Pro."""
     args = parse_arguments()
 
     config = ConfigManager(args.config)

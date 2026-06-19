@@ -1,2 +1,2 @@
 # modules/__init__.py
-"""DIGI TEAM Reconnaissance Modules."""
+"""ReconX-Pro Reconnaissance Modules."""

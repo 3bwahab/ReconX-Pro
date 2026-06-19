@@ -2,10 +2,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="digiteam",
+    name="reconx",
     version="2.0.0",
-    description="DIGI TEAM - Elite Reconnaissance Framework",
-    author="DIGI TEAM",
+    description="ReconX-Pro - Elite Reconnaissance Framework",
+    author="ReconX-Pro",
     packages=find_packages(),
     python_requires=">=3.8",
     install_requires=[
@@ -18,7 +18,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "digiteam=main:main",
+            "reconx=main:main",
         ],
     },
     classifiers=[

@@ -9,7 +9,7 @@ from typing import List, Optional
 from utils.helpers import run_command, is_tool_installed
 from utils.logger import setup_logger
 
-logger = setup_logger("digiteam.integration.subfinder")
+logger = setup_logger("reconx.integration.subfinder")
 
 
 class SubfinderRunner:

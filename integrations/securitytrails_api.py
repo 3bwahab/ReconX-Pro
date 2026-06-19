@@ -18,7 +18,7 @@ except ImportError:
 
 from utils.logger import setup_logger
 
-logger = setup_logger("digiteam.integration.securitytrails")
+logger = setup_logger("reconx.integration.securitytrails")
 
 ST_BASE = "https://api.securitytrails.com/v1"
 

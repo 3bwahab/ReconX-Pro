@@ -56,7 +56,7 @@ class BaseModule(ABC):
         self.target = target
         self.config = config
         self.module_name = module_name or self.__class__.__name__
-        self.logger = setup_logger(f"digiteam.module.{self.module_name}")
+        self.logger = setup_logger(f"reconx.module.{self.module_name}")
         self.result = ModuleResult(module_name=self.module_name)
 
     @property

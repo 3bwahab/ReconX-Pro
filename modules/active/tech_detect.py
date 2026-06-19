@@ -132,7 +132,7 @@ class TechDetectModule(BaseModule):
                     allow_redirects=True,
                     verify=False,
                     headers={"User-Agent": self.config.get(
-                        "general.user_agent", "DIGI-TEAM/2.0"
+                        "general.user_agent", "ReconX-Pro/2.0"
                     )},
                 )
 

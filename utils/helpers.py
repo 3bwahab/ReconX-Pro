@@ -1,6 +1,6 @@
 # utils/helpers.py
 """
-Helper utilities for DIGI TEAM.
+Helper utilities for ReconX-Pro.
 Common functions used across the project.
 """
 
@@ -13,7 +13,7 @@ from pathlib import Path
 
 from utils.logger import setup_logger
 
-logger = setup_logger("digiteam.helpers")
+logger = setup_logger("reconx.helpers")
 
 
 def is_tool_installed(tool_name: str) -> bool:

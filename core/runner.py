@@ -48,7 +48,7 @@ from integrations.github_recon import GitHubReconModule
 from integrations.builtwith_api import BuiltWithModule
 
 console = Console()
-logger = setup_logger("digiteam.runner")
+logger = setup_logger("reconx.runner")
 
 STATUS_ICONS = {
     ModuleStatus.PENDING: "[dim]⏳ Pending[/]",

@@ -1,5 +1,5 @@
 # core/__init__.py
-"""DIGI TEAM Core Framework."""
+"""ReconX-Pro Core Framework."""
 
 __version__ = "2.0.0"
-__author__ = "DIGI TEAM"
+__author__ = "ReconX-Pro"
