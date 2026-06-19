@@ -37,13 +37,9 @@ so you can enable, disable, or extend capabilities from a single config file.
 
 ## 🎬 Demo
 
-<div align="center">
+<video src="https://github.com/3bwahab/ReconX-Pro/raw/main/ReconX_pro.mp4" controls muted loop width="100%"></video>
 
-https://github.com/3bwahab/ReconX-Pro/raw/main/ReconX_pro.mp4
-
-*If the video doesn't play above, [click here to watch it](https://github.com/3bwahab/ReconX-Pro/raw/main/ReconX_pro.mp4).*
-
-</div>
+<a href="https://github.com/3bwahab/ReconX-Pro/raw/main/ReconX_pro.mp4">▶️ Watch the demo</a> if the player above doesn't load.
 
 ---
 
