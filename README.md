@@ -35,6 +35,18 @@ so you can enable, disable, or extend capabilities from a single config file.
 
 ---
 
+## 🎬 Demo
+
+<div align="center">
+
+https://github.com/3bwahab/ReconX-Pro/raw/main/ReconX_pro.mp4
+
+*If the video doesn't play above, [click here to watch it](https://github.com/3bwahab/ReconX-Pro/raw/main/ReconX_pro.mp4).*
+
+</div>
+
+---
+
 ## ⚡ Features
 
 ### 🔍 Passive Reconnaissance
